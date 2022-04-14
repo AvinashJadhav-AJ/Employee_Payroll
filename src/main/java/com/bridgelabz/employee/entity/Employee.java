@@ -20,6 +20,11 @@ public class Employee {
 
     }
 
+    /**
+     *
+     * @param id
+     * @param employeeDTO
+     */
     public Employee(long id, EmployeeDTO employeeDTO) {
         this.id = id;
         this.name = employeeDTO.name;

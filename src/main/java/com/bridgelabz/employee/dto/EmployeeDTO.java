@@ -16,6 +16,10 @@ public class EmployeeDTO {
         this.salary = salary;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "EmployeeDTO{" +
